@@ -1,18 +1,17 @@
 The Cursed Diamond of Bellatrix
 
 Once upon a time, during the final battle at Hogwarts, a powerful artifact known as the "Diamond of Secrets" was destroyed by Bellatrix Lestrange to prevent anyone from uncovering its hidden powers. This diamond, infused with ancient magic, could only be revealed to those who decoded its intricate pattern by casting a specific spell. After the battle, Professor McGonagall discovered fragments of an ancient incantation with an odd length, believed to be the key to recreating the diamond’s shape and unveiling the forest's hidden secrets.
-Gathering her most trusted students, McGonagall explained that only those who could accurately replicate the diamond’s pattern would be worthy of retrieving Bellatrix’s final secret. As one of these trusted students, you are tasked with mastering various spells and its diamond formation to uncover the secrets of the diamond to restore peace and balance of the magical world.
+Gathering her most trusted students, McGonagall explained that only those who could accurately replicate the diamond’s pattern would be worthy of retrieving Bellatrix’s final secret. As one of these trusted students, you are tasked with mastering the given spell and its diamond formation to uncover the secrets of the diamond and restore peace and balance of the magical world.
 
 Input:
-The first line consists of an integer t representing the number of spells provided by Professor.
-The next t lines are length of spells(n) strings of lowercase spells of odd length.
+The first line consists of an integer n representing the length of the spell provided by Professor followed by a lowercase string of n length which has to be inscribed in the diamond formation.
 
 Output:
 A diamond pattern made out of an odd length spell containing an odd number of letters in each line.
 
 Constraits
-1<=t<=10
-1<=n<=100
+1 <= t<= 10
+1 <= n <= 100
 Sample Test Case 1:
 1
 mystifera
@@ -29,7 +28,6 @@ m y s t i f e r a
 Sample Test Case 2:
 2
 spectirum
-velar
 Sample Output 2:
         s
       s p e
@@ -40,9 +38,3 @@ s p e c t i r u m
     s p e c t
       s p e
         s
-    v
-  v e l
-v e l a r
-  v e l
-    V
-
