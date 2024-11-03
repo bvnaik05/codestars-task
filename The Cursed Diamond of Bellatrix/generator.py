@@ -14,7 +14,7 @@ with open(file_path, 'r') as file:
     spells_content = file.read()
 
 spells_list = list(map(str.strip, spells_content.split("\n")))
-total_tc = 2
+total_tc = 10
 tc_count = 0
 base_file_name = f"./Test Cases"
 
@@ -23,7 +23,7 @@ for i in range(total_tc):
     input_file_name = f"{base_file_name}/input{tc_count}.txt"
     output_file_name = f"{base_file_name}/output{tc_count}.txt"
     input_file = open(input_file_name,"w")
-    t = random.randint(1,5)
+    t = random.randint(1,10)
     input_file.write(f"{t}\n")
     shuffle_spells(spells=spells_list)
     for i in range(t):

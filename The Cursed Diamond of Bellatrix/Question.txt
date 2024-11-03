@@ -5,13 +5,14 @@ Gathering her most trusted students, McGonagall explained that only those who co
 
 Input:
 The first line consists of an integer t representing the number of spells provided by Professor.
-The next t lines are strings of lowercase spells of odd length.
+The next t lines are length of spells(n) strings of lowercase spells of odd length.
 
 Output:
 A diamond pattern made out of an odd length spell containing an odd number of letters in each line.
 
 Constraits
 1<=t<=10
+1<=n<=100
 Sample Test Case 1:
 1
 mystifera
