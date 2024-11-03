@@ -1,0 +1,47 @@
+The Cursed Diamond of Bellatrix
+
+Once upon a time, during the final battle at Hogwarts, a powerful artifact known as the "Diamond of Secrets" was destroyed by Bellatrix Lestrange to prevent anyone from uncovering its hidden powers. This diamond, infused with ancient magic, could only be revealed to those who decoded its intricate pattern by casting a specific spell. After the battle, Professor McGonagall discovered fragments of an ancient incantation with an odd length, believed to be the key to recreating the diamond’s shape and unveiling the forest's hidden secrets.
+Gathering her most trusted students, McGonagall explained that only those who could accurately replicate the diamond’s pattern would be worthy of retrieving Bellatrix’s final secret. As one of these trusted students, you are tasked with mastering various spells and its diamond formation to uncover the secrets of the diamond to restore peace and balance of the magical world.
+
+Input:
+The first line consists of an integer t representing the number of spells provided by Professor.
+The next t lines are strings of lowercase spells of odd length.
+
+Output:
+A diamond pattern made out of an odd length spell containing an odd number of letters in each line.
+
+Constraits
+1<=t<=10
+Sample Test Case 1:
+1
+mystifera
+Sample Output 1:
+        m
+      m y s
+    m y s t i
+  m y s t i f e
+m y s t i f e r a
+  m y s t i f e
+    m y s t i
+      m y s
+        m
+Sample Test Case 2:
+2
+spectirum
+velar
+Sample Output 2:
+        s
+      s p e
+    s p e c t
+  s p e c t i r
+s p e c t i r u m
+  s p e c t i r
+    s p e c t
+      s p e
+        s
+    v
+  v e l
+v e l a r
+  v e l
+    V
+
