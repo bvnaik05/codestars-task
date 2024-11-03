@@ -20,8 +20,8 @@ base_file_name = f"./Test Cases"
 shuffle_spells(spells=spells_list)
 for i in range(total_tc):
     tc_count = i+1
-    input_file_name = f"{base_file_name}/input{tc_count}.txt"
-    output_file_name = f"{base_file_name}/output{tc_count}.txt"
+    input_file_name = f"{base_file_name}/input/input{tc_count:02}.txt"
+    output_file_name = f"{base_file_name}/output/output{tc_count:02}.txt"
     input_file = open(input_file_name,"w")
     input_file.write(f"{len(spells_list[i])}\n")
     input_file.write(f"{spells_list[i]}\n")
